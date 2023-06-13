@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.input_field{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.input_field button{
+    border: none;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.input_field input{
+    border-radius: 10px;
+    border: none;
+}
+
+.task-item{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    color: white;
+    list-style-type: none;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.task-item button{
+    border: none;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+}
+
+.container{
+    background-color: rgba(132, 132, 132, 0.438);
+    border-radius: 20px;
+    padding: 5%;
+}
+
+
